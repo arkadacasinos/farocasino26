@@ -69,6 +69,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${playfair.variable} ${manrope.variable}`}>
       <head>
+        <meta name="yandex-verification" content="c283f9c0532d5fef" />
         {/* Дополнительные пользовательские теги можно вставлять сюда */}
         <link rel="canonical" href="https://farocasino26.vercel.app/" />
         <meta name="robots" content="index, follow" />
